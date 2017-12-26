@@ -15,6 +15,6 @@ ci:
     # - cp -r incoco $ALAUDACI_UPLOAD_DIR/incoco
     - cp Dockerfile $ALAUDACI_DEST_DIR
     - cp run.sh $ALAUDACI_DEST_DIR
-    # - cp -r target/*.jar $ALAUDACI_UPLOAD_DIR
+    - cp run.sh $ALAUDACI_UPLOAD_DIR
     # - mvn sonar:sonar -Dsonar.host.url=https://sonar.adolphlwq.xyz | tee $ALAUDACI_UPLOAD_DIR/maven_sonar.log
     - mvn sonar:sonar -Dsonar.host.url=https://sonar.adolphlwq.xyz
