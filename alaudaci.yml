@@ -17,4 +17,4 @@ ci:
     - cp run.sh $ALAUDACI_DEST_DIR
     - cp run.sh $ALAUDACI_UPLOAD_DIR
     # - mvn sonar:sonar -Dsonar.host.url=https://sonar.adolphlwq.xyz | tee $ALAUDACI_UPLOAD_DIR/maven_sonar.log
-    - mvn sonar:sonar -Dsonar.host.url=https://sonar.adolphlwq.xyz
+    - mvn sonar:sonar -Dsonar.host.url=https://sonar6.adolphlwq.xyz
